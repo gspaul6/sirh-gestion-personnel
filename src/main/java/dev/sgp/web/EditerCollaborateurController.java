@@ -42,7 +42,7 @@ public class EditerCollaborateurController extends HttpServlet {
 			resp.setStatus(200);
 			resp.setContentType("text/html");
 			resp.getWriter().write("<h1>Liste des collaborateurs</h1>" + "Matricule=" + matriculeParam + "titre="
-					+ titreParam + "nom=" + nomParam + "prenom=" + prenomParam);
+					+ titreParam + "nom= " + nomParam + "prenom=" + prenomParam);
 
 		} else {
 
