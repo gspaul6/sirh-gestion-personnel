@@ -59,38 +59,38 @@ dist/css/bootstrap.css">
 	<br>
 	<form action="http://localhost:8080/sgp/collaborateurs/nouveau"  method="post" class=" container-fluid was-validated ">
 		<div class="form-group">
-			<label for="uname">NOM:</label> <input type="text"
-				class="form-control" id="uname" placeholder="Nom" name="uname"
+			<label >NOM:</label> <input type="text"
+				class="form-control" placeholder="Nom" name="nom"
 				required>
 			<div class="valid-feedback">Valid.</div>
 			<div class="invalid-feedback">Please fill out this field.</div>
 		</div>
 		<div class="form-group">
-			<label for="uname">PRENOM:</label> <input type="text"
-				class="form-control" id="uname" placeholder="Prénom" name="uname"
+			<label >PRENOM:</label> <input type="text"
+				class="form-control" placeholder="Prénom" name="prenom"
 				required>
 			<div class="valid-feedback">Valid.</div>
 			<div class="invalid-feedback">Please fill out this field.</div>
 		</div>
 		<div class="form-group">
-			<label for="uname">Date de Naissence:</label> <input type="date"
-				class="form-control" id="uname" placeholder="Date de Naissence"
-				name="uname" required>
+			<label >Date de Naissence:</label> <input type="date"
+				class="form-control"  placeholder="Date de Naissence"
+				name="dateOfBirth" required>
 			<div class="valid-feedback">Valid.</div>
 			<div class="invalid-feedback">Please fill out this field.</div>
 		</div>
 		<div class="form-group">
-			<label for="uname">Addresse:</label> <input type="textarea"
-				class="form-control" id="uname" placeholder="addresse" name="uname"
+			<label >Addresse:</label> <input type="textarea"
+				class="form-control"  placeholder="addresse" name="adresse"
 				required>
 			<div class="valid-feedback">Valid.</div>
 			<div class="invalid-feedback">Please fill out this field.</div>
 		</div>
 
 		<div class="form-group">
-			<label for="pwd">Numero de securite social:</label> <input
-				type="text" class="form-control" id="pwd" placeholder="number"
-				name="pswd" required>
+			<label >Numero de securite social:</label> <input
+				type="text" class="form-control"  placeholder="number"
+				name="securitySocial" required>
 			<div class="valid-feedback">Valid.</div>
 			<div class="invalid-feedback">Please fill out this field.</div>
 		</div>

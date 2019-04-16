@@ -59,7 +59,9 @@ public class AjouterCollaborateurController extends HttpServlet {
 							+ "Matricule=" + newClient.getMatricule() + "Date de l'heure="
 							+ newClient.getDateHeureCreation() + "Email=" + newClient.getEmailPro() + "Photo:"
 							+ newClient.getPhoto());
-		} else {
+		}
+
+		else {
 			resp.sendError(400, "All values are missing");
 		}
 	}
